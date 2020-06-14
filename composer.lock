@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "content-hash": "f84ab935263e89669ff622cbadaa3f22",
+
     "packages": [
         {
             "name": "botman/botman",
