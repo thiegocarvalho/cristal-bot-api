@@ -20,6 +20,7 @@
         "guzzlehttp/guzzle": "^6.5",
         "laravel/framework": "5.7.*",
         "laravel/telescope": "~1.0",
+        "moontoast/math": "1.1.2 as 1.99.0",
         "laravel/tinker": "^1.0",
         "lucascudo/laravel-pt-br-localization": "^1.1",
         "ext-json": "*"
