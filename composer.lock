@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f84ab935263e89669ff622cbadaa3f22",
-
+    "content-hash": "b8331cd75bd96cfab5288898f502cc9c",
     "packages": [
         {
             "name": "botman/botman",
@@ -4971,51 +4970,6 @@
             "time": "2018-01-05T09:48:36+00:00"
         },
         {
-            "name": "thiagoprz/here-geocoder",
-            "version": "0.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thiagoprz/here-geocoder.git",
-                "reference": "944ba87dbcd20999ddd57623aed7e64e0900798d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thiagoprz/here-geocoder/zipball/944ba87dbcd20999ddd57623aed7e64e0900798d",
-                "reference": "944ba87dbcd20999ddd57623aed7e64e0900798d",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.3",
-                "php": "^7.1.3"
-            },
-            "require-dev": {
-                "estahn/phpunit-json-assertions": "@stable",
-                "orchestra/testbench": "^3.10@dev",
-                "phpunit/phpunit": "^8.3@dev"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ],
-                "psr-4": {
-                    "Thiagoprz\\HereGeocoder\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Thiago Przyczynski",
-                    "email": "przyczynski@gmail.com"
-                }
-            ],
-            "description": "Laravel package to explore Here Maps API",
-            "time": "2020-02-27T17:34:03+00:00"
-        },
-        {
             "name": "tightenco/collect",
             "version": "v6.18.16",
             "source": {
@@ -7009,7 +6963,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.3"
+        "php": "^7.1.3",
+        "ext-json": "*"
     },
     "platform-dev": []
 }
