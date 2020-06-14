@@ -146,6 +146,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Thiagoprz\HereGeocoder\HereGeocoderServiceProvider::class,
 
         /*
          * Package Service Providers...
