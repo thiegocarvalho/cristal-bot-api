@@ -30,6 +30,8 @@ class ExampleConversation extends Conversation
      */
     public function askReason()
     {
+        $user = $this->getBot()->getUser();
+
         $this->say("Oi! Eu sou a Cristal, sua nova companheira de viagem! Nós vamos ter longas horas pela frente, mas antes, quero te conhecer melhor!");
 
         $this->ask('Qual o seu nome?', function (Answer $answer) {
