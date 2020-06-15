@@ -66,8 +66,8 @@ class ExampleConversation extends Conversation
             $this->say('...');
             $this->say('...');
             $this->say('...');
-            $this->say('Pronto é só clicar no botão abaixo, até daqui a pouco ;)');
-            $this->say('https://cristal.netlify.app/dashboard');
+            $this->say('Pronto é só clicar no link abaixo, até daqui a pouco ;)');
+            $this->say('https://cristal.netlify.app/');
         });
     }
 
